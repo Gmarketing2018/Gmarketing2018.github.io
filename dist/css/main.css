@@ -148,27 +148,27 @@ input, select {
 
 @media only screen and (min-width: 1080px) {
   html {
-    font-size: 13.5px; } }
+    font-size: 33px; } }
 
 @media only screen and (min-width: 1140px) {
   html {
-    font-size: 14.25px; } }
+    font-size: 34.83333px; } }
 
 @media only screen and (min-width: 1200px) {
   html {
-    font-size: 15px; } }
+    font-size: 36.66667px; } }
 
 @media only screen and (min-width: 1260px) {
   html {
-    font-size: 15.75px; } }
+    font-size: 38.5px; } }
 
 @media only screen and (min-width: 1320px) {
   html {
-    font-size: 16.5px; } }
+    font-size: 40.33333px; } }
 
 @media only screen and (min-width: 1380px) {
   html {
-    font-size: 17.25px; } }
+    font-size: 42.16667px; } }
 
 @media only screen and (min-width: 1440px) {
   html {
@@ -304,9 +304,8 @@ body {
     vertical-align: middle;
     text-align: left;
     position: relative;
-    width: 80%;
-    margin: 0 auto;
-    padding: 5% 0; }
+    width: 72%;
+    margin: 20px auto; }
     body .app:before {
       content: '';
       width: 0;
@@ -340,7 +339,7 @@ body {
       body .app .container .body {
         position: relative;
         width: 95%;
-        height: 36rem;
+        height: 38rem;
         margin: -17% 0 0 4%;
         z-index: 1;
         -webkit-border-radius: 0.625rem;
@@ -446,7 +445,8 @@ body {
               margin: 0.75rem auto;
               background: #5EB658;
               color: white;
-              font-size: 2.7rem;
+              font-size: 2.5rem;
+              padding: 0;
               -webkit-border-radius: 50%;
               -moz-border-radius: 50%;
               border-radius: 50%; }
@@ -481,7 +481,7 @@ body {
               body .app .container .body .phone .buttons .submit {
                 width: 4.25rem;
                 height: 4.25rem; } }
-          @media only screen and (min-width: 1080px) {
+          @media only screen and (min-width: 1440px) {
             body .app .container .body .phone {
               background: white; }
               body .app .container .body .phone .line {
@@ -609,7 +609,7 @@ body {
           @media only screen and (min-width: 425px) {
             body .app .container .body .questions .questionBody .owl-carousel .item .CommonBlock {
               margin-top: 0; } }
-          @media only screen and (min-width: 1080px) {
+          @media only screen and (min-width: 1440px) {
             body .app .container .body .questions .header {
               width: 100%;
               text-align: right;
@@ -817,7 +817,7 @@ body {
                     background: #C9CACA; }
               body .app .container .body .anwsers .options .tableRow .false.click {
                 background: #d08311; }
-          @media only screen and (min-width: 1080px) {
+          @media only screen and (min-width: 1440px) {
             body .app .container .body .anwsers {
               padding: 10% 0; }
               body .app .container .body .anwsers .wrapper {
@@ -956,7 +956,7 @@ body {
               background: #ad3e12; }
           body .app .popup .content .buttons button + button {
             margin-left: 0.75rem; }
-      @media only screen and (min-width: 1080px) {
+      @media only screen and (min-width: 1440px) {
         body .app .popup .content {
           width: 24%;
           -webkit-border-radius: 15px;
@@ -1049,7 +1049,7 @@ body {
               padding-right: 1.625rem;
               font-size: 18px;
               font-size: 1.125rem; }
-      @media only screen and (min-width: 1080px) {
+      @media only screen and (min-width: 1440px) {
         body .app .success .home {
           position: absolute;
           right: -8%;
@@ -1090,7 +1090,7 @@ body {
       margin: 1.25rem auto 0 auto; }
     body .app .pc {
       display: none; }
-  @media only screen and (min-width: 1080px) {
+  @media only screen and (min-width: 1440px) {
     body .app .health_bureau {
       width: 50%;
       margin: 1.25rem auto 0 auto; }
