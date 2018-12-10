@@ -1,0 +1,1129 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+ul {
+  list-style: none; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+/* others */
+@media only screen and (min-width: 300px) {
+  html {
+    font-size: 9.16667px; } }
+
+@media only screen and (min-width: 360px) {
+  html {
+    font-size: 11px; } }
+
+@media only screen and (min-width: 420px) {
+  html {
+    font-size: 12.83333px; } }
+
+@media only screen and (min-width: 480px) {
+  html {
+    font-size: 14.66667px; } }
+
+@media only screen and (min-width: 540px) {
+  html {
+    font-size: 16.5px; } }
+
+@media only screen and (min-width: 600px) {
+  html {
+    font-size: 18.33333px; } }
+
+@media only screen and (min-width: 660px) {
+  html {
+    font-size: 20.16667px; } }
+
+@media only screen and (min-width: 720px) {
+  html {
+    font-size: 22px; } }
+
+@media only screen and (min-width: 780px) {
+  html {
+    font-size: 23.83333px; } }
+
+@media only screen and (min-width: 840px) {
+  html {
+    font-size: 25.66667px; } }
+
+@media only screen and (min-width: 900px) {
+  html {
+    font-size: 27.5px; } }
+
+@media only screen and (min-width: 960px) {
+  html {
+    font-size: 29.33333px; } }
+
+@media only screen and (min-width: 1020px) {
+  html {
+    font-size: 31.16667px; } }
+
+@media only screen and (min-width: 1080px) {
+  html {
+    font-size: 13.5px; } }
+
+@media only screen and (min-width: 1140px) {
+  html {
+    font-size: 14.25px; } }
+
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 15px; } }
+
+@media only screen and (min-width: 1260px) {
+  html {
+    font-size: 15.75px; } }
+
+@media only screen and (min-width: 1320px) {
+  html {
+    font-size: 16.5px; } }
+
+@media only screen and (min-width: 1380px) {
+  html {
+    font-size: 17.25px; } }
+
+@media only screen and (min-width: 1440px) {
+  html {
+    font-size: 18px; } }
+
+@media only screen and (min-width: 1500px) {
+  html {
+    font-size: 18.75px; } }
+
+@media only screen and (min-width: 1560px) {
+  html {
+    font-size: 19.5px; } }
+
+@media only screen and (min-width: 1620px) {
+  html {
+    font-size: 20.25px; } }
+
+@media only screen and (min-width: 1680px) {
+  html {
+    font-size: 21px; } }
+
+@media only screen and (min-width: 1740px) {
+  html {
+    font-size: 21.75px; } }
+
+@media only screen and (min-width: 1800px) {
+  html {
+    font-size: 22.5px; } }
+
+@media only screen and (min-width: 1860px) {
+  html {
+    font-size: 23.25px; } }
+
+@media only screen and (min-width: 1920px) {
+  html {
+    font-size: 24px; } }
+
+@font-face {
+  font-family: "w3";
+  src: url("../fonts/DFYuanStd-W3.otf"); }
+
+@font-face {
+  font-family: "w5";
+  src: url("../fonts/DFYuanStd-W5.otf"); }
+
+@font-face {
+  font-family: "w7";
+  src: url("../fonts/DFYuanStd-W7.otf"); }
+
+@font-face {
+  font-family: "w9";
+  src: url("../fonts/DFYuanStd-W9.otf"); }
+
+body {
+  font-family: 'w3', 'w5', 'w7', 'w9', 'Roboto', 'PingFang TC', Arial, sans-serif;
+  line-height: 1;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/background_phone.png");
+  background-color: white;
+  background-repeat-y: repeat;
+  background-size: 100%;
+  position: relative;
+  min-height: 100vh;
+  height: 100vh;
+  text-align: center; }
+  body:before {
+    content: '';
+    width: 0;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative; }
+  body.vertical {
+    background-image: url("../images/background_phone.png"); }
+  body.horizontal {
+    background-image: url("../images/background_pc.png"); }
+  body img {
+    position: relative;
+    width: 100%; }
+  body button, body input {
+    outline: none !important;
+    background: transparent;
+    border: none; }
+  body .inlineBlock {
+    display: inline-block; }
+  body .CommonBlock {
+    position: relative;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    padding: 0.75rem; }
+    body .CommonBlock .inlineBlock {
+      vertical-align: middle; }
+      body .CommonBlock .inlineBlock.icon {
+        text-align: center;
+        width: 20%; }
+        body .CommonBlock .inlineBlock.icon div {
+          width: 2.5rem;
+          height: 2.5rem;
+          margin: 0 auto;
+          cursor: pointer;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          border-radius: 50%;
+          -webkit-transition: all 0.1s linear;
+          -moz-transition: all 0.1s linear;
+          -ms-transition: all 0.1s linear;
+          -o-transition: all 0.1s linear;
+          transition: all 0.1s linear; }
+          body .CommonBlock .inlineBlock.icon div:before {
+            content: '';
+            width: 0;
+            height: 100%;
+            display: inline-block;
+            vertical-align: middle;
+            position: relative; }
+          body .CommonBlock .inlineBlock.icon div i {
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 26px;
+            font-size: 1.625rem; }
+      body .CommonBlock .inlineBlock.wording {
+        width: calc(80% - .5rem);
+        color: white;
+        letter-spacing: .5px;
+        line-height: 1.5;
+        text-align: left;
+        font-size: 14px;
+        font-size: 0.875rem; }
+  body .app {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5% 0; }
+    body .app:before {
+      content: '';
+      width: 0;
+      height: 100%;
+      display: inline-block;
+      vertical-align: middle;
+      position: relative; }
+    body .app .container {
+      position: relative;
+      display: none;
+      vertical-align: middle;
+      z-index: 2; }
+      body .app .container.active {
+        display: inline-block;
+        z-index: 3; }
+      body .app .container .header {
+        position: relative;
+        z-index: 2; }
+        body .app .container .header .absolute {
+          position: absolute;
+          z-index: 1;
+          color: black;
+          padding: 0.125rem;
+          top: 0;
+          left: 0;
+          font-size: 10px;
+          font-size: 0.625rem; }
+        body .app .container .header img {
+          width: 95%;
+          margin: 0 auto; }
+      body .app .container .body {
+        position: relative;
+        width: 95%;
+        height: 36rem;
+        margin: -17% 0 0 4%;
+        z-index: 1;
+        -webkit-border-radius: 0.625rem;
+        -moz-border-radius: 0.625rem;
+        border-radius: 0.625rem;
+        -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); }
+        body .app .container .body .phone, body .app .container .body .questions, body .app .container .body .anwsers {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          padding: 15%;
+          z-index: 1;
+          opacity: 0;
+          -webkit-transition: all 0.1s ease-out;
+          -moz-transition: all 0.1s ease-out;
+          -ms-transition: all 0.1s ease-out;
+          -o-transition: all 0.1s ease-out;
+          transition: all 0.1s ease-out;
+          -webkit-border-radius: 0.625rem;
+          -moz-border-radius: 0.625rem;
+          border-radius: 0.625rem; }
+          body .app .container .body .phone.active, body .app .container .body .questions.active, body .app .container .body .anwsers.active {
+            display: block;
+            opacity: 1;
+            z-index: 3; }
+        body .app .container .body .phone {
+          background: white;
+          padding: 20% 2rem 8% 2rem; }
+          body .app .container .body .phone .line {
+            border: 1px solid #CCC;
+            color: #4c4a4a;
+            padding: 1.125rem 1.5rem;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 1.25rem;
+            overflow-y: scroll;
+            letter-spacing: 1px;
+            font-size: 26px;
+            font-size: 1.625rem;
+            -webkit-border-radius: 7px;
+            -moz-border-radius: 7px;
+            border-radius: 7px; }
+          body .app .container .body .phone .buttons {
+            position: relative;
+            text-align: center;
+            width: 95%;
+            margin: 0 auto;
+            z-index: 1; }
+            body .app .container .body .phone .buttons ul.numbers li {
+              font-family: 'w7';
+              display: inline-block;
+              vertical-align: middle;
+              width: 4.125rem;
+              height: 4.125rem;
+              padding-top: 0.375rem;
+              margin-right: calc((100% - (4.125rem + .5rem) * 3) / 2);
+              margin-bottom: 0.75rem;
+              background: #E4E4E3;
+              color: black;
+              cursor: pointer;
+              -webkit-border-radius: 50%;
+              -moz-border-radius: 50%;
+              border-radius: 50%; }
+              body .app .container .body .phone .buttons ul.numbers li:nth-child(3n+3) {
+                margin-right: 0; }
+              body .app .container .body .phone .buttons ul.numbers li:hover, body .app .container .body .phone .buttons ul.numbers li.active {
+                background: #d2d3d3; }
+              body .app .container .body .phone .buttons ul.numbers li div:not(.small) {
+                font-size: 46px;
+                font-size: 2.875rem; }
+              body .app .container .body .phone .buttons ul.numbers li div.small {
+                font-family: 'w3';
+                margin-left: 2px;
+                font-weight: 300;
+                letter-spacing: 1px;
+                color: #9c9d9d;
+                font-size: 10px;
+                font-size: 0.625rem; }
+              body .app .container .body .phone .buttons ul.numbers li:nth-child(10), body .app .container .body .phone .buttons ul.numbers li:nth-child(12) {
+                padding-top: 0;
+                text-align: center; }
+                body .app .container .body .phone .buttons ul.numbers li:nth-child(10):before, body .app .container .body .phone .buttons ul.numbers li:nth-child(12):before {
+                  content: '';
+                  width: 0;
+                  height: 100%;
+                  display: inline-block;
+                  vertical-align: middle;
+                  position: relative; }
+                body .app .container .body .phone .buttons ul.numbers li:nth-child(10) div:not(.small), body .app .container .body .phone .buttons ul.numbers li:nth-child(12) div:not(.small) {
+                  display: inline-block;
+                  vertical-align: middle; }
+              body .app .container .body .phone .buttons ul.numbers li:nth-child(10) div:not(.small) {
+                padding-top: .6rem;
+                font-size: 3.9rem; }
+            body .app .container .body .phone .buttons .submit {
+              cursor: pointer;
+              width: 4.125rem;
+              height: 4.125rem;
+              margin: 0.75rem auto;
+              background: #5EB658;
+              color: white;
+              font-size: 2.7rem;
+              -webkit-border-radius: 50%;
+              -moz-border-radius: 50%;
+              border-radius: 50%; }
+              body .app .container .body .phone .buttons .submit:hover, body .app .container .body .phone .buttons .submit.click {
+                background: #377C32; }
+            body .app .container .body .phone .buttons .loading {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              z-index: 2; }
+          @media only screen and (min-width: 340px) {
+            body .app .container .body .phone {
+              background: white;
+              padding: 15% 2.5rem 8% 2.5rem; }
+              body .app .container .body .phone .buttons ul.numbers li {
+                width: 4.5rem;
+                height: 4.5rem;
+                margin-right: calc((100% - (4.5rem + .5rem) * 3) / 2); }
+              body .app .container .body .phone .buttons .submit {
+                width: 4.5rem;
+                height: 4.5rem; } }
+          @media only screen and (min-width: 400px) {
+            body .app .container .body .phone {
+              background: white;
+              padding: 15% 3.5rem 8% 3.5rem; }
+              body .app .container .body .phone .buttons ul.numbers li {
+                width: 4.25rem;
+                height: 4.25rem;
+                margin-right: calc((100% - (4.25rem + .5rem) * 3) / 2); }
+              body .app .container .body .phone .buttons .submit {
+                width: 4.25rem;
+                height: 4.25rem; } }
+          @media only screen and (min-width: 1080px) {
+            body .app .container .body .phone {
+              background: white; }
+              body .app .container .body .phone .line {
+                font-size: 22px;
+                font-size: 1.375rem;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                border-radius: 10px; }
+              body .app .container .body .phone .buttons ul.numbers li {
+                width: 4.0625rem;
+                height: 4.0625rem;
+                margin-right: calc((100% - (4.0625rem + .5rem) * 3) / 2); }
+                body .app .container .body .phone .buttons ul.numbers li div:not(.small) {
+                  font-size: 2.5rem; }
+                body .app .container .body .phone .buttons ul.numbers li div.small {
+                  font-size: 0.75rem; }
+                body .app .container .body .phone .buttons ul.numbers li:nth-child(10) div:not(.small) {
+                  font-size: 2.875rem; }
+              body .app .container .body .phone .buttons .submit {
+                width: 4.0625rem;
+                height: 4.0625rem;
+                margin: 0.75rem auto;
+                font-size: 2.5rem; } }
+        body .app .container .body .questions {
+          background: #EEB033;
+          padding: 0; }
+          body .app .container .body .questions .header {
+            background: white;
+            padding: 1.25rem 2rem 0.875rem 1.5rem;
+            border-top-right-radius: 0.625rem;
+            border-top-left-radius: 0.625rem;
+            line-height: 1.5;
+            letter-spacing: 2px;
+            color: #673A1B;
+            text-align: right;
+            font-size: 20px;
+            font-size: 1.25rem; }
+          body .app .container .body .questions .questionBody {
+            padding: 1.25rem 1.25rem 0;
+            border-bottom: 1px solid transparent;
+            border-image: url(../images/border_horizontal.png) 2 round; }
+            body .app .container .body .questions .questionBody .title {
+              font-family: 'w5';
+              font-weight: 600;
+              color: white;
+              text-align: center;
+              font-size: 28px;
+              font-size: 1.75rem;
+              letter-spacing: 3px;
+              margin-bottom: 0.875rem; }
+              body .app .container .body .questions .questionBody .title i {
+                margin-left: -4px; }
+            body .app .container .body .questions .questionBody .owl-carousel .item {
+              background: #595757;
+              width: 100%;
+              height: 21rem;
+              margin: 0 auto;
+              overflow: hidden;
+              -webkit-border-radius: 7px;
+              -moz-border-radius: 7px;
+              border-radius: 7px; }
+              body .app .container .body .questions .questionBody .owl-carousel .item .img {
+                border-top-right-radius: 7px;
+                border-top-left-radius: 7px;
+                overflow: hidden; }
+              body .app .container .body .questions .questionBody .owl-carousel .item .CommonBlock .inlineBlock {
+                vertical-align: middle; }
+                body .app .container .body .questions .questionBody .owl-carousel .item .CommonBlock .inlineBlock.icon div {
+                  background: #45CEBD;
+                  color: white; }
+                body .app .container .body .questions .questionBody .owl-carousel .item .CommonBlock .inlineBlock.click div {
+                  background: #2fb1a1; }
+            body .app .container .body .questions .questionBody .owl-buttons {
+              text-align: center;
+              margin: 1.25rem auto; }
+              body .app .container .body .questions .questionBody .owl-buttons button {
+                color: white;
+                cursor: pointer;
+                display: inline-block;
+                vertical-align: middle;
+                background: rgba(255, 255, 255, 0.2);
+                -webkit-transition: all 0.1s linear;
+                -moz-transition: all 0.1s linear;
+                -ms-transition: all 0.1s linear;
+                -o-transition: all 0.1s linear;
+                transition: all 0.1s linear;
+                -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.05);
+                -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.05);
+                box-shadow: 0 0 2px rgba(0, 0, 0, 0.05); }
+                body .app .container .body .questions .questionBody .owl-buttons button:hover, body .app .container .body .questions .questionBody .owl-buttons button.click {
+                  background: rgba(255, 255, 255, 0.4);
+                  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+                  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+                  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1); }
+              body .app .container .body .questions .questionBody .owl-buttons button:not(.submit) {
+                width: 2rem;
+                height: 2rem;
+                text-align: center;
+                font-size: 16px;
+                font-size: 1rem;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                border-radius: 50%; }
+                body .app .container .body .questions .questionBody .owl-buttons button:not(.submit) i {
+                  display: inline-block; }
+                body .app .container .body .questions .questionBody .owl-buttons button:not(.submit):first-child i {
+                  margin-left: -0.3125rem; }
+                body .app .container .body .questions .questionBody .owl-buttons button:not(.submit):last-child i {
+                  margin-right: -0.3125rem; }
+              body .app .container .body .questions .questionBody .owl-buttons .submit {
+                height: 2rem;
+                font-size: 16px;
+                font-size: 1rem;
+                margin: 0 0.625rem;
+                letter-spacing: 1.5px;
+                padding: 0.25rem 1.5rem; }
+          @media only screen and (min-width: 375px) {
+            body .app .container .body .questions .questionBody .owl-carousel .item {
+              width: 21rem; }
+              body .app .container .body .questions .questionBody .owl-carousel .item .CommonBlock {
+                position: relative;
+                z-index: 2;
+                background: #595757;
+                margin-top: -1.6rem; } }
+          @media only screen and (min-width: 425px) {
+            body .app .container .body .questions .questionBody .owl-carousel .item .CommonBlock {
+              margin-top: 0; } }
+          @media only screen and (min-width: 1080px) {
+            body .app .container .body .questions .header {
+              width: 100%;
+              text-align: right;
+              border-top-right-radius: 0.9375rem;
+              border-top-left-radius: 0.9375rem;
+              font-size: 20px;
+              font-size: 1.25rem; }
+              body .app .container .body .questions .header div {
+                display: inline-block; }
+                body .app .container .body .questions .header div:first-child {
+                  margin-left: 0; }
+                body .app .container .body .questions .header div:last-child {
+                  margin-left: 0; }
+            body .app .container .body .questions .questionBody {
+              position: relative;
+              padding: 3.75rem 0 1.4rem 0;
+              width: 80%;
+              margin: 0 auto;
+              border-bottom: 3px solid transparent;
+              border-image: url(../images/border_horizontal.png) 3 round; }
+              body .app .container .body .questions .questionBody .title {
+                display: none; }
+              body .app .container .body .questions .questionBody .owl-carousel .item {
+                background: transparent;
+                width: auto;
+                height: auto;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                border-radius: 10px; }
+                body .app .container .body .questions .questionBody .owl-carousel .item .img, body .app .container .body .questions .questionBody .owl-carousel .item .CommonBlock {
+                  display: inline-block;
+                  vertical-align: top;
+                  width: calc(50% - .5rem); }
+                  body .app .container .body .questions .questionBody .owl-carousel .item .img img, body .app .container .body .questions .questionBody .owl-carousel .item .CommonBlock img {
+                    -webkit-border-radius: 10px;
+                    -moz-border-radius: 10px;
+                    border-radius: 10px; }
+                body .app .container .body .questions .questionBody .owl-carousel .item .CommonBlock {
+                  background: transparent;
+                  position: inherit;
+                  z-index: 1; }
+                  body .app .container .body .questions .questionBody .owl-carousel .item .CommonBlock .pc {
+                    font-family: 'w5';
+                    display: block;
+                    color: white;
+                    margin-bottom: 1.25rem;
+                    font-size: 28px;
+                    font-size: 1.75rem; }
+                  body .app .container .body .questions .questionBody .owl-carousel .item .CommonBlock .inlineBlock {
+                    display: block;
+                    text-align: left; }
+                    body .app .container .body .questions .questionBody .owl-carousel .item .CommonBlock .inlineBlock.icon {
+                      width: auto;
+                      position: absolute;
+                      bottom: 0;
+                      right: 0;
+                      text-align: center; }
+                    body .app .container .body .questions .questionBody .owl-carousel .item .CommonBlock .inlineBlock.wording {
+                      width: 100%;
+                      letter-spacing: 1.8px;
+                      font-size: 16px;
+                      font-size: 1rem; }
+              body .app .container .body .questions .questionBody .owl-buttons {
+                margin: 1.625rem auto; }
+                body .app .container .body .questions .questionBody .owl-buttons button:not(.submit) {
+                  width: 2.5rem;
+                  height: 2.5rem;
+                  font-size: 26px;
+                  font-size: 1.625rem; }
+                body .app .container .body .questions .questionBody .owl-buttons .submit {
+                  height: 2.5rem;
+                  font-size: 18px;
+                  font-size: 1.125rem; } }
+        body .app .container .body .anwsers {
+          padding: 20% 1.25rem;
+          background: #EEB033; }
+          body .app .container .body .anwsers .wrapper {
+            display: table;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            background: transparent;
+            border-collapse: collapse;
+            overflow: hidden;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px; }
+            body .app .container .body .anwsers .wrapper .CommonBlock {
+              height: 7.5rem; }
+              body .app .container .body .anwsers .wrapper .CommonBlock .inlineBlock {
+                padding: 0.75rem; }
+                body .app .container .body .anwsers .wrapper .CommonBlock .inlineBlock.icon div {
+                  background: white; }
+                body .app .container .body .anwsers .wrapper .CommonBlock .inlineBlock.wording {
+                  color: white; }
+          body .app .container .body .anwsers .question .CommonBlock {
+            display: table-row; }
+            body .app .container .body .anwsers .question .CommonBlock .inlineBlock {
+              display: table-cell;
+              vertical-align: middle; }
+              body .app .container .body .anwsers .question .CommonBlock .inlineBlock.icon {
+                background: #2f2c2b; }
+                body .app .container .body .anwsers .question .CommonBlock .inlineBlock.icon div {
+                  color: #2f2c2b; }
+              body .app .container .body .anwsers .question .CommonBlock .inlineBlock.click div {
+                background: #C9CACA;
+                color: white; }
+              body .app .container .body .anwsers .question .CommonBlock .inlineBlock.wording {
+                background: white;
+                color: #2f2c2b; }
+          body .app .container .body .anwsers .title {
+            width: 70%;
+            margin: 2rem auto 0.5rem auto;
+            text-align: center;
+            color: #595757;
+            font-size: 18px;
+            font-size: 1.125rem; }
+          body .app .container .body .anwsers .options {
+            padding: 1.125rem 0 0.75rem 0;
+            border-bottom: 2px solid transparent;
+            border-top: 2px solid transparent;
+            border-image: url(../images/border_horizontal.png) 2 round; }
+            body .app .container .body .anwsers .options .tableRow .true {
+              display: block;
+              cursor: pointer;
+              background: #DD5519;
+              -webkit-border-radius: 7px;
+              -moz-border-radius: 7px;
+              border-radius: 7px; }
+              body .app .container .body .anwsers .options .tableRow .true .wrapper {
+                display: block; }
+              body .app .container .body .anwsers .options .tableRow .true .CommonBlock {
+                display: inline-block;
+                vertical-align: middle;
+                width: 100%;
+                padding: 0; }
+                body .app .container .body .anwsers .options .tableRow .true .CommonBlock:before {
+                  content: '';
+                  width: 0;
+                  height: 100%;
+                  display: inline-block;
+                  vertical-align: middle;
+                  position: relative; }
+                body .app .container .body .anwsers .options .tableRow .true .CommonBlock:after {
+                  content: '';
+                  display: block;
+                  position: absolute;
+                  top: 0;
+                  left: 19%;
+                  width: 1px;
+                  border-right: 2px solid transparent;
+                  border-image: url(../images/border_vertical.png) 2 round;
+                  height: 100%; }
+                body .app .container .body .anwsers .options .tableRow .true .CommonBlock .inlineBlock.icon {
+                  padding: 0; }
+                  body .app .container .body .anwsers .options .tableRow .true .CommonBlock .inlineBlock.icon div {
+                    color: #DD5519; }
+                    body .app .container .body .anwsers .options .tableRow .true .CommonBlock .inlineBlock.icon div:hover {
+                      color: #c64c16; }
+                  body .app .container .body .anwsers .options .tableRow .true .CommonBlock .inlineBlock.icon.click div {
+                    color: white;
+                    background: #C9CACA; }
+              body .app .container .body .anwsers .options .tableRow .true.click {
+                background: #c64c16; }
+            body .app .container .body .anwsers .options .tableRow .false {
+              display: block;
+              cursor: pointer;
+              background: #E89213;
+              -webkit-border-radius: 7px;
+              -moz-border-radius: 7px;
+              border-radius: 7px;
+              margin-top: 0.625rem; }
+              body .app .container .body .anwsers .options .tableRow .false .wrapper {
+                display: block; }
+              body .app .container .body .anwsers .options .tableRow .false .CommonBlock {
+                display: inline-block;
+                vertical-align: middle;
+                width: 100%;
+                padding: 0; }
+                body .app .container .body .anwsers .options .tableRow .false .CommonBlock:before {
+                  content: '';
+                  width: 0;
+                  height: 100%;
+                  display: inline-block;
+                  vertical-align: middle;
+                  position: relative; }
+                body .app .container .body .anwsers .options .tableRow .false .CommonBlock:after {
+                  content: '';
+                  display: block;
+                  position: absolute;
+                  top: 0;
+                  left: 19%;
+                  width: 1px;
+                  border-right: 2px solid transparent;
+                  border-image: url(../images/border_vertical.png) 2 round;
+                  height: 100%; }
+                body .app .container .body .anwsers .options .tableRow .false .CommonBlock .inlineBlock.icon {
+                  padding: 0; }
+                  body .app .container .body .anwsers .options .tableRow .false .CommonBlock .inlineBlock.icon div {
+                    color: #E89213; }
+                    body .app .container .body .anwsers .options .tableRow .false .CommonBlock .inlineBlock.icon div:hover {
+                      color: #d08311; }
+                  body .app .container .body .anwsers .options .tableRow .false .CommonBlock .inlineBlock.icon.click div {
+                    color: white;
+                    background: #C9CACA; }
+              body .app .container .body .anwsers .options .tableRow .false.click {
+                background: #d08311; }
+          @media only screen and (min-width: 1080px) {
+            body .app .container .body .anwsers {
+              padding: 10% 0; }
+              body .app .container .body .anwsers .wrapper {
+                width: 40%;
+                margin: 0 auto;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                border-radius: 10px; }
+                body .app .container .body .anwsers .wrapper .CommonBlock .inlineBlock.wording {
+                  font-size: 16px;
+                  font-size: 1rem; }
+              body .app .container .body .anwsers .options {
+                border-bottom: 3px solid transparent;
+                border-top: 3px solid transparent;
+                border-image: url(../images/border_horizontal.png) 3 round;
+                width: 70%;
+                margin-left: auto;
+                margin-right: auto;
+                display: table;
+                height: auto;
+                padding: 0;
+                background: transparent;
+                border-collapse: separate;
+                border-spacing: 1.25rem;
+                overflow: hidden; }
+                body .app .container .body .anwsers .options .tableRow {
+                  display: table-row; }
+                  body .app .container .body .anwsers .options .tableRow .true, body .app .container .body .anwsers .options .tableRow .false {
+                    display: table-cell;
+                    vertical-align: middle;
+                    width: 50%;
+                    position: relative; }
+                    body .app .container .body .anwsers .options .tableRow .true:before, body .app .container .body .anwsers .options .tableRow .false:before {
+                      content: '';
+                      display: block;
+                      position: absolute;
+                      top: 2.5%;
+                      left: 19%;
+                      width: 1px;
+                      border-right: 3px solid transparent;
+                      border-image: url(../images/border_vertical.png) 3 round;
+                      height: 95%; }
+                    body .app .container .body .anwsers .options .tableRow .true .CommonBlock:after, body .app .container .body .anwsers .options .tableRow .false .CommonBlock:after {
+                      content: none; }
+                    body .app .container .body .anwsers .options .tableRow .true .wrapper, body .app .container .body .anwsers .options .tableRow .false .wrapper {
+                      width: 100%;
+                      height: 100%; } }
+    body .app .popup {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      text-align: center;
+      z-index: 1;
+      opacity: 0;
+      -webkit-transition: all 0.1s linear;
+      -moz-transition: all 0.1s linear;
+      -ms-transition: all 0.1s linear;
+      -o-transition: all 0.1s linear;
+      transition: all 0.1s linear; }
+      body .app .popup:before {
+        content: '';
+        width: 0;
+        height: 100%;
+        display: inline-block;
+        vertical-align: middle;
+        position: relative; }
+      body .app .popup.show {
+        display: block;
+        opacity: 1;
+        z-index: 10; }
+      body .app .popup.reCall .text {
+        width: 70%;
+        margin: 0 auto 1rem 30%; }
+      body .app .popup .content {
+        display: inline-block;
+        vertical-align: middle;
+        background: rgba(241, 241, 241, 0.95);
+        width: 60%;
+        margin: 0 auto;
+        padding: 2.5rem 1.25rem 1.25rem;
+        overflow: hidden;
+        -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px; }
+        body .app .popup .content .text {
+          font-family: 'w3';
+          font-size: 0.875rem;
+          text-align: justify;
+          line-height: 1.6;
+          width: 80%;
+          margin: 0 auto 1rem auto; }
+        body .app .popup .content .buttons button {
+          font-family: 'w5';
+          width: 4rem;
+          height: 4rem;
+          color: white;
+          font-size: 0.8125rem;
+          cursor: pointer;
+          display: none;
+          font-size: 12px;
+          font-size: 0.75rem;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          border-radius: 50%;
+          -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+          -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.5); }
+          body .app .popup .content .buttons button:before {
+            content: '';
+            width: 0;
+            height: 100%;
+            display: inline-block;
+            vertical-align: middle;
+            position: relative; }
+          body .app .popup .content .buttons button.show {
+            display: inline-block; }
+          body .app .popup .content .buttons button .texts {
+            display: inline-block;
+            vertical-align: middle; }
+            body .app .popup .content .buttons button .texts div {
+              line-height: 1.3;
+              letter-spacing: .8px; }
+          body .app .popup .content .buttons button.green {
+            background: #218428; }
+            body .app .popup .content .buttons button.green:hover, body .app .popup .content .buttons button.green .click {
+              background: #1c7022; }
+          body .app .popup .content .buttons button.red {
+            background: #C44614; }
+            body .app .popup .content .buttons button.red:hover, body .app .popup .content .buttons button.red .click {
+              background: #ad3e12; }
+          body .app .popup .content .buttons button + button {
+            margin-left: 0.75rem; }
+      @media only screen and (min-width: 1080px) {
+        body .app .popup .content {
+          width: 24%;
+          -webkit-border-radius: 15px;
+          -moz-border-radius: 15px;
+          border-radius: 15px;
+          -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
+          -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7); }
+          body .app .popup .content .text {
+            font-size: 18px;
+            font-size: 1.125rem; }
+          body .app .popup .content .buttons button {
+            font-size: 16px;
+            font-size: 1rem; } }
+    body .app .success {
+      position: relative;
+      display: none;
+      z-index: 2; }
+      body .app .success.active {
+        display: inline-block;
+        vertical-align: middle;
+        z-index: 3; }
+      body .app .success .absolute {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        color: black;
+        padding: 0.25rem 0.375rem;
+        font-size: 10px;
+        font-size: 0.625rem; }
+      body .app .success .home {
+        position: absolute;
+        right: -8%;
+        width: 3.375rem;
+        height: 3.375rem;
+        color: white;
+        background: #DD5519;
+        text-align: center;
+        cursor: pointer;
+        -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%; }
+        body .app .success .home:before {
+          content: '';
+          width: 0;
+          height: 100%;
+          display: inline-block;
+          vertical-align: middle;
+          position: relative; }
+        body .app .success .home i {
+          display: inline-block;
+          vertical-align: middle;
+          font-size: 26px;
+          font-size: 1.625rem; }
+        body .app .success .home:hover {
+          background: #c64c16; }
+      body .app .success .images {
+        width: 90%;
+        margin: 1.6875rem auto 0 auto; }
+        body .app .success .images img {
+          display: block;
+          position: relative; }
+          body .app .success .images img + img {
+            margin: 1.5rem auto; }
+      body .app .success .slogan {
+        background: rgba(255, 255, 255, 0.7);
+        padding: 0.375rem 0; }
+        body .app .success .slogan div.content {
+          padding: 1.5rem;
+          border: 1px solid #D0D623;
+          text-align: center; }
+          body .app .success .slogan div.content div {
+            font-family: 'w9';
+            color: #673A1B;
+            font-size: 30px;
+            font-size: 1.875rem; }
+            body .app .success .slogan div.content div:first-child {
+              color: #CB3B2B; }
+            body .app .success .slogan div.content div:nth-child(2) {
+              line-height: 1.3;
+              font-size: 32px;
+              font-size: 2rem; }
+            body .app .success .slogan div.content div:last-child {
+              text-align: right;
+              font-family: 'w3';
+              padding-right: 1.625rem;
+              font-size: 18px;
+              font-size: 1.125rem; }
+      @media only screen and (min-width: 1080px) {
+        body .app .success .home {
+          position: absolute;
+          right: -8%;
+          width: 2.875rem;
+          height: 2.875rem; }
+        body .app .success .images {
+          position: relative;
+          width: 70%;
+          margin: 0 auto; }
+          body .app .success .images img {
+            display: inline-block;
+            vertical-align: middle;
+            width: 40%; }
+            body .app .success .images img + img {
+              width: calc(60% - 1rem);
+              padding-left: 3%; }
+        body .app .success .slogan {
+          width: calc(100% + 25%);
+          margin-left: -12.5%; }
+          body .app .success .slogan div.content div {
+            display: inline-block;
+            font-size: 40px;
+            font-size: 2.5rem; }
+            body .app .success .slogan div.content div:nth-child(2) {
+              line-height: 1;
+              font-size: 40px;
+              font-size: 2.5rem; }
+              body .app .success .slogan div.content div:nth-child(2):before {
+                content: ':';
+                display: inline-block;
+                vertical-align: middle;
+                position: relative;
+                padding: 0 6px 0.625rem 6px; }
+            body .app .success .slogan div.content div:last-child {
+              text-align: left; } }
+    body .app .health_bureau {
+      width: 75%;
+      margin: 1.25rem auto 0 auto; }
+    body .app .pc {
+      display: none; }
+  @media only screen and (min-width: 1080px) {
+    body .app .health_bureau {
+      width: 50%;
+      margin: 1.25rem auto 0 auto; }
+    body .app .container .header .absolute {
+      border: 1px solid black; }
+    body .app .container .body {
+      -webkit-border-radius: 0.9375rem;
+      -moz-border-radius: 0.9375rem;
+      border-radius: 0.9375rem; }
+      body .app .container .body .phone, body .app .container .body .questions, body .app .container .body .anwsers {
+        -webkit-border-radius: 0.9375rem;
+        -moz-border-radius: 0.9375rem;
+        border-radius: 0.9375rem; }
+    body .app:not(.index) {
+      width: 80%; }
+      body .app:not(.index) .container .header {
+        width: 60%;
+        margin: 0 auto; }
+      body .app:not(.index) .container .body {
+        margin: -8% auto 0 auto;
+        height: 32rem; }
+      body .app:not(.index) .health_bureau {
+        width: 20%; }
+      body .app:not(.index) .popup .content {
+        width: 50%; }
+      body .app:not(.index) .success .images {
+        position: relative; }
+      body .app:not(.index) .success .absolute {
+        top: 30%;
+        left: -8%; }
+    body .app.index {
+      width: 30%; }
+      body .app.index .container .body {
+        height: 34rem; } }
+
+/*# sourceMappingURL=maps/main.css.map */
