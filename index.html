@@ -16,13 +16,13 @@
 <body>
 	<div class="app index">
 		<div class="container active">
-			<div class="header">
-				<div class="absolute">廣告</div>
-				<img src="dist/images/header.png" alt="">
-			</div>
+			<div class="header"><img src="dist/images/header.png" alt=""></div>
 			<div class="body">
 				<section class="main phone active">
-					<div class="line" data-default="請輸入專線號碼" data-value="">請輸入專線號碼</div>
+					<div class="line" data-default="請輸入專線號碼" data-value="0800770885">
+						<span>請輸入專線號碼</span>
+						<i class="icon-delete"></i>
+					</div>
 					<div class="buttons">
 						<ul class="numbers">
 							<li data-value="1" data-show="1">
@@ -99,7 +99,7 @@
 								<div class="CommonBlock">
 									<div class="pc">諮詢單 <i class="icon-search"></i></div>
 									<div class="inlineBlock icon"><div><i data-value="3" class="question icon-loudspeaker_1"></i></div></div>
-									<div class="inlineBlock wording">孩子時常精神恍惚，金錢花費大，問話也支支吾吾，好擔心他是不是施用毒品，但又怕過度質疑會影響與孩子的關係，該怎麼做才好呢？</div>
+									<div class="inlineBlock wording">孩子時常精神恍惚，金錢花費大，問話也支支吾吾的，好擔心他是不是施用毒品，但又怕過度質疑會影響與孩子的關係，該怎麼做才好呢？</div>
 								</div>
 							</div>
 							<div class="item" data-value="4">
@@ -121,7 +121,7 @@
 						</div>
 						<div class="owl-buttons">
 							<button type="button" class="owl-button customPrevBtn"><i class="icon-prev"></i></button>
-							<button type="button" class="submit">選擇</button>
+							<button type="button" class="submit">開始諮詢</button>
 							<button type="button" class="owl-button customNextBtn"><i class="icon-next"></i></button>
 						</div>
 					</div>
@@ -155,38 +155,42 @@
 		<div class="success">
 			<div class="home"><i class="icon-home"></i></div>
 			<div class="images">
-				<div class="absolute">廣告</div>
 				<img src="dist/images/success_slogan.png" alt="">
 				<img src="dist/images/success_main.png" alt="">
 			</div>
 			<div class="slogan">
 				<div class="content">
-					<div>防毒中心諮詢專線</div>
+					<div>毒防中心諮詢專線</div>
 					<div>0800-770-885</div>
 					<div>（ 請請你，幫幫我 ）</div>
 				</div>
 			</div>
 		</div>
-		<div class="health_bureau"><img src="dist/images/health_bureau.png" alt=""></div>
+		<div class="health_bureau">
+			<div class="absolute"><span>廣告</span></div>
+			<img src="dist/images/health_bureau.png" alt="">
+		</div>
 		<div class="popup">
 			<div class="content">
-				<div class="text"></div>
-				<div class="buttons">
-					<button type="button"
-							name="reCall"
-							class="inlineBlock green"><div class="texts">
-						<div>繼續</div><div>播號</div>
-					</div></button>
-					<button type="button"
-							name="submit"
-							class="inlineBlock green"><div class="texts">
-						<div>繼續</div><div>諮詢</div>
-					</div></button>
-					<button type="button"
-							name="break"
-							class="inlineBlock red"><div class="texts">
-						<div>結束</div><div>諮詢</div>
-					</div></button>
+				<div class="relative">
+					<div class="text"></div>
+					<div class="buttons">
+						<button type="button"
+								name="reCall"
+								class="inlineBlock green"><div class="texts">
+							<div>繼續</div><div>撥號</div>
+						</div></button>
+						<button type="button"
+								name="submit"
+								class="inlineBlock green"><div class="texts">
+							<div>繼續</div><div>諮詢</div>
+						</div></button>
+						<button type="button"
+								name="break"
+								class="inlineBlock red"><div class="texts">
+							<div>結束</div><div>諮詢</div>
+						</div></button>
+					</div>
 				</div>
 			</div>
 		</div>
