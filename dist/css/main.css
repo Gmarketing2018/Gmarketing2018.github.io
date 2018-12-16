@@ -610,19 +610,24 @@ body {
                 letter-spacing: 1.5px;
                 padding: 0.25rem 1.5rem; }
           @media only screen and (min-width: 375px) {
-            body .app .container .body .questions .questionBody .owl-carousel .item {
-              width: 21rem; }
-              body .app .container .body .questions .questionBody .owl-carousel .item .CommonBlock {
-                position: relative;
-                z-index: 2;
-                background: #595757;
-                margin-top: -1.6rem; } }
+            body .app .container .body .questions .questionBody .owl-carousel .item .CommonBlock {
+              position: relative;
+              z-index: 2;
+              background: #595757;
+              margin-top: -1.6rem; } }
           @media only screen and (min-width: 425px) {
             body .app .container .body .questions .questionBody .owl-carousel .item {
-              width: 22rem;
-              height: 22rem; }
+              height: 22rem;
+              -webkit-border-radius: 10px;
+              -moz-border-radius: 10px;
+              border-radius: 10px; }
               body .app .container .body .questions .questionBody .owl-carousel .item .CommonBlock {
                 margin-top: 0; } }
+          @media only screen and (min-width: 1080px) {
+            body .app .container .body .questions .questionBody .owl-carousel .item {
+              -webkit-border-radius: 15px;
+              -moz-border-radius: 15px;
+              border-radius: 15px; } }
           @media only screen and (min-width: 1440px) {
             body .app .container .body .questions .header {
               width: 100%;
